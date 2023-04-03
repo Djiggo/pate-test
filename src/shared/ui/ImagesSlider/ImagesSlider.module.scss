@@ -1,0 +1,10 @@
+@import "src/app/styles/vars.scss";
+
+.wrapper {
+
+  img {
+    max-width: 155px;
+    max-height: 155px;
+    object-fit: contain;
+  }
+}

@@ -1,0 +1,21 @@
+@import "src/app/styles/vars.scss";
+
+.wrapper {
+  height: 16px;
+  font-weight: 800;
+  font-size: 11px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 0.06px;
+
+  color: #fff;
+  background: $Color_Shields;
+  border-radius: 4px;
+  padding: 1px 6px ;
+  transform: skew(-24deg);
+  box-sizing: border-box;
+
+  div {
+    transform: skew(24deg);
+  }
+}

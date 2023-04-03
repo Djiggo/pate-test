@@ -1,0 +1,17 @@
+@import "src/app/styles/vars.scss";
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.activeStar path {
+  fill: $Color_Main;
+}
+
+.votes {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 14px;
+  margin-left: 1px;
+}

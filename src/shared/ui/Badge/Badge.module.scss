@@ -1,0 +1,33 @@
+@import "src/app/styles/vars.scss";
+
+.wrapper {
+  position: relative;
+  width: 46px;
+  height: 46px;
+  transform: rotate(-30deg);
+  border-radius: 50%;
+  background: $Color_Shields;
+  color: #fff;
+  font-weight: 900;
+  font-size: 8px;
+  line-height: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  &:before {
+    position: absolute;
+    z-index: -1;
+    left: -2px;
+    right: 2px;
+    top: 0;
+    bottom: 0;
+    background: $Color_Shields;
+    opacity: 0.3;
+    display: block;
+    content: " ";
+    border-radius: 50%;
+
+  }
+}

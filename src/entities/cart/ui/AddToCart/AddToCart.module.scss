@@ -1,0 +1,39 @@
+@import "../../../../app/styles/vars";
+
+.wrapper {
+  border: 1px solid $Color_Accent;
+  color: $Color_Accent;
+  border-radius: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 107px;
+
+  height: 36px;
+}
+
+.empty {
+  background: $Color_Accent;
+  color: #fff;
+  cursor: pointer;
+}
+
+.stepper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+
+  div {
+    font-size: 150%;
+    padding: 6px 14px;
+    box-sizing: border-box;
+    height: 100%;
+    cursor: pointer;
+  }
+}

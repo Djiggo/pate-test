@@ -1,0 +1,121 @@
+@import "src/app/styles/vars";
+
+.wrapper {
+  display: flex;
+  width: 155px;
+  height: 363px;
+  flex-direction: column;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.type_fashion {
+  height: 377px;
+}
+
+.top {
+  position: relative;
+  max-height: 155px;
+  display: flex;
+
+  .badge {
+    position: absolute;
+    left: -8px;
+    top: -8px;
+  }
+
+  .favButton {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 4px;
+}
+
+.chips {
+  display: flex;
+  height: 14px;
+  margin-bottom: 4px;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.272322px;
+
+  span {
+    margin-left: 2px;
+  }
+}
+
+.previousPrice {
+  color: $Color_Grayscale;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  position: relative;
+
+  span {
+    margin-left: 2px;
+  }
+
+  &:before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: block;
+    content: " ";
+    top: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-image: url("data:image/svg+xml,%3Csvg width='45' height='9' viewBox='0 0 45 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.22583 8C13.6213 2.5 22.7356 1 43.5162 1' stroke='%23F1222E' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E%0A");
+  }
+}
+
+.bottom {
+  display: flex;
+  row-gap: 4px;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+margin-top: 6px;
+}
+
+.variant {
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-size: 11px;
+  line-height: 14px;
+  cursor: pointer;
+}
+
+.variants {
+  display: flex;
+  column-gap: 6px;
+}
+
+.variantActive {
+  background: $Color_GrayscaleLight;
+}
+
+
+.addToCard {
+  margin-top: auto;
+}
